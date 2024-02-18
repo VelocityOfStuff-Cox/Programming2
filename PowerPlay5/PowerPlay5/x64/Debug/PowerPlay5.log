@@ -1,0 +1,5 @@
+﻿  PowerPlay5.cpp
+C:\Users\User\OneDrive\Documents\GitHub\Programming2\PowerPlay5\PowerPlay5\PowerPlay5.cpp(214,61): error C2429: language feature 'init-statements in if/switch' requires compiler flag '/std:c++17'
+C:\Users\User\OneDrive\Documents\GitHub\Programming2\PowerPlay5\PowerPlay5\PowerPlay5.cpp(230,60): error C2429: language feature 'init-statements in if/switch' requires compiler flag '/std:c++17'
+C:\Users\User\OneDrive\Documents\GitHub\Programming2\PowerPlay5\PowerPlay5\PowerPlay5.cpp(235,62): error C2429: language feature 'init-statements in if/switch' requires compiler flag '/std:c++17'
+C:\Users\User\OneDrive\Documents\GitHub\Programming2\PowerPlay5\PowerPlay5\PowerPlay5.cpp(283,60): error C2429: language feature 'init-statements in if/switch' requires compiler flag '/std:c++17'
