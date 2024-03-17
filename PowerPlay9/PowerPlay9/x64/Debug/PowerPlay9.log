@@ -1,0 +1,66 @@
+﻿  Item.cpp
+  Monster.cpp
+  Object.cpp
+  Player.cpp
+  PowerPlay7.cpp
+C:\Users\User\OneDrive\Documents\GitHub\Programming2\PowerPlay9\PowerPlay9\PowerPlay7.cpp(24,17): error C2228: left of '.isDead' must have class/struct/union
+  C:\Users\User\OneDrive\Documents\GitHub\Programming2\PowerPlay9\PowerPlay9\PowerPlay7.cpp(24,17):
+  type is 'Player *'
+  C:\Users\User\OneDrive\Documents\GitHub\Programming2\PowerPlay9\PowerPlay9\PowerPlay7.cpp(24,17):
+  did you intend to use '->' instead?
+  
+C:\Users\User\OneDrive\Documents\GitHub\Programming2\PowerPlay9\PowerPlay9\PowerPlay7.cpp(27,28): error C2440: '=': cannot convert from 'std::vector<Monster,std::allocator<Monster>>' to 'std::vector<Monster,std::allocator<Monster>> *'
+  C:\Users\User\OneDrive\Documents\GitHub\Programming2\PowerPlay9\PowerPlay9\PowerPlay7.cpp(27,28):
+  No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  
+C:\Users\User\OneDrive\Documents\GitHub\Programming2\PowerPlay9\PowerPlay9\PowerPlay7.cpp(36,4): error C2664: 'void displayBattle(const Player &,const std::vector<Monster,std::allocator<Monster>> &)': cannot convert argument 1 from 'Player *' to 'const Player &'
+  C:\Users\User\OneDrive\Documents\GitHub\Programming2\PowerPlay9\PowerPlay9\PowerPlay7.cpp(36,18):
+  Reason: cannot convert from 'Player *' to 'const Player'
+  C:\Users\User\OneDrive\Documents\GitHub\Programming2\PowerPlay9\PowerPlay9\PowerPlay7.cpp(36,18):
+  'Player::Player': no overloaded function could convert all the argument types
+  	C:\Users\User\OneDrive\Documents\GitHub\Programming2\PowerPlay9\PowerPlay9\Player.h(31,1):
+  	could be 'Player::Player(Player &&)'
+  		C:\Users\User\OneDrive\Documents\GitHub\Programming2\PowerPlay9\PowerPlay9\PowerPlay7.cpp(36,18):
+  		'Player::Player(Player &&)': cannot convert argument 1 from 'Player *' to 'Player &&'
+  			C:\Users\User\OneDrive\Documents\GitHub\Programming2\PowerPlay9\PowerPlay9\PowerPlay7.cpp(36,18):
+  			Reason: cannot convert from 'Player *' to 'Player'
+  			C:\Users\User\OneDrive\Documents\GitHub\Programming2\PowerPlay9\PowerPlay9\PowerPlay7.cpp(36,18):
+  			Conversion requires a second user-defined-conversion operator or constructor
+  	C:\Users\User\OneDrive\Documents\GitHub\Programming2\PowerPlay9\PowerPlay9\Player.h(31,1):
+  	or       'Player::Player(const Player &)'
+  		C:\Users\User\OneDrive\Documents\GitHub\Programming2\PowerPlay9\PowerPlay9\PowerPlay7.cpp(36,18):
+  		'Player::Player(const Player &)': cannot convert argument 1 from 'Player *' to 'const Player &'
+  			C:\Users\User\OneDrive\Documents\GitHub\Programming2\PowerPlay9\PowerPlay9\PowerPlay7.cpp(36,18):
+  			Reason: cannot convert from 'Player *' to 'const Player'
+  			C:\Users\User\OneDrive\Documents\GitHub\Programming2\PowerPlay9\PowerPlay9\PowerPlay7.cpp(36,18):
+  			Conversion requires a second user-defined-conversion operator or constructor
+  	C:\Users\User\OneDrive\Documents\GitHub\Programming2\PowerPlay9\PowerPlay9\PowerPlay7.cpp(36,18):
+  	while trying to match the argument list '(Player *)'
+  C:\Users\User\OneDrive\Documents\GitHub\Programming2\PowerPlay9\PowerPlay9\PowerPlay7.cpp(16,6):
+  see declaration of 'displayBattle'
+  C:\Users\User\OneDrive\Documents\GitHub\Programming2\PowerPlay9\PowerPlay9\PowerPlay7.cpp(36,4):
+  while trying to match the argument list '(Player *, std::vector<Monster,std::allocator<Monster>> *)'
+  
+C:\Users\User\OneDrive\Documents\GitHub\Programming2\PowerPlay9\PowerPlay9\PowerPlay7.cpp(40,4): error C2664: 'void bringOutYourDead(std::vector<Monster,std::allocator<Monster>> &)': cannot convert argument 1 from 'std::vector<Monster,std::allocator<Monster>> *' to 'std::vector<Monster,std::allocator<Monster>> &'
+  C:\Users\User\OneDrive\Documents\GitHub\Programming2\PowerPlay9\PowerPlay9\PowerPlay7.cpp(17,6):
+  see declaration of 'bringOutYourDead'
+  C:\Users\User\OneDrive\Documents\GitHub\Programming2\PowerPlay9\PowerPlay9\PowerPlay7.cpp(40,4):
+  while trying to match the argument list '(std::vector<Monster,std::allocator<Monster>> *)'
+  
+C:\Users\User\OneDrive\Documents\GitHub\Programming2\PowerPlay9\PowerPlay9\PowerPlay7.cpp(45,13): error C2664: 'void Monster::update(Player &,std::vector<Monster,std::allocator<Monster>> &)': cannot convert argument 1 from 'Player *' to 'Player &'
+  C:\Users\User\OneDrive\Documents\GitHub\Programming2\PowerPlay9\PowerPlay9\Monster.h(13,7):
+  see declaration of 'Monster::update'
+  C:\Users\User\OneDrive\Documents\GitHub\Programming2\PowerPlay9\PowerPlay9\PowerPlay7.cpp(45,13):
+  while trying to match the argument list '(Player *, std::vector<Monster,std::allocator<Monster>> *)'
+  
+C:\Users\User\OneDrive\Documents\GitHub\Programming2\PowerPlay9\PowerPlay9\PowerPlay7.cpp(43,9): error C2672: 'std::for_each': no matching overloaded function found
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\algorithm(266,6):
+  could be 'void std::for_each(_ExPo &&,_FwdIt,_FwdIt,_Fn) noexcept'
+  	C:\Users\User\OneDrive\Documents\GitHub\Programming2\PowerPlay9\PowerPlay9\PowerPlay7.cpp(43,9):
+  	'void std::for_each(_ExPo &&,_FwdIt,_FwdIt,_Fn) noexcept': expects 4 arguments - 2 provided
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\algorithm(253,18):
+  or       '_Fn std::for_each(_InIt,_InIt,_Fn)'
+  	C:\Users\User\OneDrive\Documents\GitHub\Programming2\PowerPlay9\PowerPlay9\PowerPlay7.cpp(43,9):
+  	'_Fn std::for_each(_InIt,_InIt,_Fn)': expects 3 arguments - 2 provided
+  
+  Generating Code...
