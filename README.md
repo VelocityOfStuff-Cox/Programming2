@@ -1,2 +1,2 @@
 # Programming2
- Repository for University course work submission
+ This repository was used for saving my university course work for Programming II 
